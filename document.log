@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.26)  17 MAR 2023 20:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.26)  17 MAR 2023 20:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -600,20 +600,20 @@ Library (tcolorbox): 'tcbposter.code.tex' version '5.1.1'
 )) (document.aux)
 \openout1 = `document.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
  (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count336
@@ -678,45 +678,45 @@ Package: inputenc 2021/02/14 v1.3d Input encoding file
 <logo_fund.png, id=40, 310.15875pt x 195.73125pt>
 File: logo_fund.png Graphic file (type png)
 <use logo_fund.png>
-Package pdftex.def Info: logo_fund.png  used on input line 75.
+Package pdftex.def Info: logo_fund.png  used on input line 74.
 (pdftex.def)             Requested size: 85.35826pt x 53.86656pt.
-<ente.jpg, id=42, 199.49532pt x 68.50594pt>
-File: ente.jpg Graphic file (type jpg)
-<use ente.jpg>
-Package pdftex.def Info: ente.jpg  used on input line 94.
-(pdftex.def)             Requested size: 55.85829pt x 19.18152pt.
-<logo_ufac.png, id=43, 410.53375pt x 123.46124pt>
+<ente.png, id=42, 642.4pt x 731.73375pt>
+File: ente.png Graphic file (type png)
+<use ente.png>
+Package pdftex.def Info: ente.png  used on input line 92.
+(pdftex.def)             Requested size: 32.12187pt x 36.58882pt.
+<logo_ufac.png, id=43, 39.2667pt x 57.816pt>
 File: logo_ufac.png Graphic file (type png)
 <use logo_ufac.png>
-Package pdftex.def Info: logo_ufac.png  used on input line 94.
-(pdftex.def)             Requested size: 49.26192pt x 14.8147pt.
+Package pdftex.def Info: logo_ufac.png  used on input line 92.
+(pdftex.def)             Requested size: 19.63329pt x 28.90791pt.
  [1
 
-{C:/Users/salom/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./ente.jpg> 
+{C:/Users/salom/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./ente.png> 
 <./logo_ufac.png> <./logo_fund.png>]
-File: ente.jpg Graphic file (type jpg)
-<use ente.jpg>
-Package pdftex.def Info: ente.jpg  used on input line 94.
-(pdftex.def)             Requested size: 55.85829pt x 19.18152pt.
+File: ente.png Graphic file (type png)
+<use ente.png>
+Package pdftex.def Info: ente.png  used on input line 92.
+(pdftex.def)             Requested size: 32.12187pt x 36.58882pt.
 File: logo_ufac.png Graphic file (type png)
 <use logo_ufac.png>
-Package pdftex.def Info: logo_ufac.png  used on input line 94.
-(pdftex.def)             Requested size: 49.26192pt x 14.8147pt.
+Package pdftex.def Info: logo_ufac.png  used on input line 92.
+(pdftex.def)             Requested size: 19.63329pt x 28.90791pt.
  [2] (document.aux) ) 
 Here is how much of TeX's memory you used:
- 21013 strings out of 475385
- 455270 string characters out of 2786721
- 915424 words of memory out of 3000000
- 42049 multiletter control sequences out of 15000+600000
+ 21010 strings out of 475385
+ 455230 string characters out of 2786721
+ 915327 words of memory out of 3000000
+ 42047 multiletter control sequences out of 15000+600000
  470320 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,9n,96p,401b,1442s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cm
 bx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/
 Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb>
-Output written on document.pdf (2 pages, 150932 bytes).
+Output written on document.pdf (2 pages, 276212 bytes).
 PDF statistics:
- 69 PDF objects out of 1000 (max. 8388607)
+ 70 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  172 words of extra memory for PDF output out of 10000 (max. 10000000)
 
