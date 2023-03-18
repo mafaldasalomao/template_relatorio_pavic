@@ -1,0 +1,95 @@
+\documentclass{article}
+\usepackage{blindtext, graphicx,wrapfig,lipsum, tikz,geometry}
+\geometry{
+	a4paper,
+	total={185mm,257mm},
+	left=13mm,
+	top=10mm,
+}
+\usepackage[most]{tcolorbox}
+\definecolor{my-color}{HTML}{336699}
+\newcommand{\titlebox}[2]{
+	\begin{tikzpicture}
+		\node[align=center,draw,thick,text width=\textwidth,inner sep=6mm] (titlebox) {#2};
+		\node[fill=white] (Title) at (titlebox.north) {\bfseries \large #1};
+	\end{tikzpicture}
+}
+\newcommand{\cabecalho}[3]{
+	\begin{tcolorbox}[bicolor,sidebyside,righthand width=3cm,
+		sharp corners,boxrule=.4pt,colback=my-color!20,colbacklower=my-color!30]
+		\uppercase{\textbf{Nome:} #1 \\
+			\textbf{Função:} #2 \\
+			\textbf{Unidade:} UFAC\\
+			\textbf{Programa:} PROJETO P\&D PAVIC-LAB \\
+			\textbf{Mês de Referência:} #3}
+			\tcblower
+		%------------------------------------------
+			\includegraphics[width=3cm]{logo_fund.png}
+		%------------------------------------------
+	\end{tcolorbox}
+}
+
+\newcommand{\atividade}[3]{
+	\tcbset{width=(\linewidth-1mm)/2,before=,after=\hfill,arc=0mm,
+		colframe=red!75!black,colback=white}
+	
+	\begin{tcolorbox}
+		\textbf{Data:} #1/2023 \\
+		\textbf{Duração:} #2 h\\
+		\textbf{Atividade:} #3
+	\end{tcolorbox}
+
+}
+
+\newcommand{\assinatura}[1]{
+	\vspace*{2cm}
+	\begin{tabular}{p{8cm}p{8cm}}
+		\textbf{\hrulefill} & \textbf{\hrulefill} \\
+		\multicolumn{1}{c}{\textbf{#1}}   &  \multicolumn{1}{c}{\textbf{Salomão Machado Mafalda}} \\
+		\multicolumn{1}{c}{{\small Pesquisador Bolsista}} & \multicolumn{1}{c}{{\small Pesquisador Pleno}} 
+	\end{tabular}
+
+
+	\begin{tabular}{p{8cm}}
+		\\
+		\textbf{\hrulefill} \\
+		\multicolumn{1}{c}{\textbf{Ana Beatriz Alvarez Mamani}} \\
+		\multicolumn{1}{c}{{\small Coordenadora do Projeto}} 
+	\end{tabular}
+
+\vspace*{1cm}
+}
+\tcbset{colback=red!5!white,colframe=my-color!100}
+
+
+\begin{document}
+	\begin{tcolorbox}[enhanced,sharp corners,breakable,
+		title = \uppercase{\textbf{\phantom{ dwdadas}Relatório de Atividades realizadas no Projeto PAVIC}},
+		halign=center,
+		valign=center,
+		colback=white,
+		overlay={\node at (frame.south east) {\includegraphics[scale=0.28]{ente}};\node at (frame.south west) {\includegraphics[scale=0.12]{logo_ufac.png}};}]
+		
+		
+		%INSIRA SEU NOME, fUNÇÃO E MES DO RELATORIO
+		\cabecalho{PAULO CHAVES DOS SANTOS JÚNIOR}{Bolsista (Graduação)}{Março}
+		%============================================Descreva suas atividades a partir daqui============================
+	
+		
+		\atividade{01/03}{4:00}{\lipsum[2-5]}
+		\atividade{03/03}{4:00}{\lipsum[2]}
+		\atividade{10/03}{4:00}{\lipsum[2]}
+		\atividade{22/03}{4:00}{\lipsum[2]}
+		\atividade{31/03}{4:00}{\lipsum[2]}
+	    %================================================================================================================
+	    %INSIRA SEU NOME
+	    \assinatura{Paulo Chaves dos Santos Júnior}
+	    
+	    
+	    
+	   
+	    
+	    
+	    
+	\end{tcolorbox}
+\end{document}
